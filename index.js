@@ -3040,7 +3040,7 @@ class CEF {
         fmtMsg += cefExts[ext][0] + '=' + cefExts[ext][1] + ' ';
       }
     }
-    return fmtMsg;
+    return fmtMsg.trim();
   }
   /**
    * @public
